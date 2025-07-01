@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Site Horóscopo </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .signos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .signo {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+      transition: transform 0.2s;
+      text-align: center;
+    }
+
+    .signo:hover {
+      transform: scale(1.03);
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .signo a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Horóscopo  </h1>
+    <p>signos</p>
+  </header>
+
+  <div class="signos">
+    <div class="signo"><a href="áries.html">♈ Áries</a></div>
+    <div class="signo"><a href="touro.html">♉ Touro</a></div>
+    <div class="signo"><a href="gemeos.html">♊ Gêmeos</a></div>
+    <div class="signo"><a href="cancer.html">♋ Câncer</a></div>
+    <div class="signo"><a href="leao.html">♌ Leão</a></div>
+    <div class="signo"><a href="virgem.html">♍ Virgem</a></div>
+    <div class="signo"><a href="libra.html">♎ Libra</a></div>
+    <div class="signo"><a href="escorpiao.html">♏ Escorpião</a></div>
+    <div class="signo"><a href="sagitario.html">♐ Sagitário</a></div>
+    <div class="signo"><a href="capricornio.html">♑ Capricórnio</a></div>
+    <div class="signo"><a href="aquario.html">♒ Aquário</a></div>
+    <div class="signo"><a href="peixes.html">♓ Peixes</a></div>
+  </div>
+
+
+</body>
+</html>
